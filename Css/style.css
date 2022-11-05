@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+.bord {
+  background-image: url(img/Line.png);
+  position: absolute;
+  width: 800px;
+  height: 1px;
+  top: 80px;
+  left: 300px;
+
+}
+
+body {
+  font-family: 'Roboto Slab' !important;
+}
+
+@media (max-width: 992px) {
+  .navbar-expand-lg .offcanvas-body {
+    border: none !important;
+  }
+
+  #nav .social {
+    padding: 0px 30px !important;
+    margin-top: -10px !important;
+  }
+
+}
+
+#header {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header .item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+#header .item p {
+  font: normal 500 38px Roboto Slab;
+  text-align: center;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 60%;
+  text-shadow: 0px 3px 37px rgba(0, 0, 0, 0.25);
+}
+
+#header .social {
+  margin-top: -80px;
+  position: absolute;
+}
+
+#header .social a {
+  background-color: #FFFFFF;
+  color: #303030;
+  font-size: 19px;
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#header .social a:hover {
+  background-color: #27AE60;
+  color: #FFFFFF;
+}
+
+.ag1 {
+  position: absolute;
+  background-image: url(../img/white.png);
+  top: 550px;
+  left: 625px;
+  width: 8px;
+  height: 8px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.ag2 {
+  position: absolute;
+  background-image: url(../img/white.png);
+  top: 550px;
+  left: 645px;
+  width: 8px;
+  height: 8px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.ag3 {
+  position: absolute;
+  background-image: url(../img/white.png);
+  top: 550px;
+  left: 665px;
+  width: 8px;
+  height: 8px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.leftv {
+  position: absolute;
+  background-image: url(../img/circle.png);
+  width: 37px;
+  height: 37px;
+  left: 147px;
+  top: 398.631591796875px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.v {
+  position: absolute;
+  background-image: url(../img/leftv.png);
+  background-repeat: no-repeat;
+  width: 9px;
+  height: 13px;
+  left: 12px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.rightv {
+  position: absolute;
+  background-image: url(../img/circle.png);
+  width: 37px;
+  height: 37px;
+  left: 1218px;
+  top: 398.631591796875px;
+  border-radius: 0px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+#nav {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(14.1%, #FFFFFF), color-stop(92.75%, rgba(255, 255, 255, 0)));
+  background: linear-gradient(180deg, #FFFFFF 14.1%, rgba(255, 255, 255, 0) 92.75%);
+  position: absolute;
+  z-index: 999999;
+  width: 100%;
+}
+
+#nav .navbar-brand {
+  margin-right: 100px;
+}
+
+#nav .navbar-brand img {
+  padding-bottom: 15px;
+}
+
+#nav .navbar-nav .nav-item .nav-link {
+  font: normal 300 15px Roboto Slab !important;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: #1F1F24;
+  margin-right: 40px;
+  padding: 0;
+  padding-top: 2px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid transparent;
+}
+
+#nav .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 2px solid #27AE60;
+}
+
+.bord {
+  background-image: url(../img/Line.png);
+  position: absolute;
+  width: 740px;
+  height: 1px;
+  top: 80px;
+  left: 300px;
+}
+
+#nav .navbar-nav .select_ {
+  font: normal 300 15px Roboto Slab;
+  line-height: 22px;
+  width: 40px;
+  background-color: transparent;
+  letter-spacing: 1px;
+  color: #253476;
+  border: none;
+  margin-right: 40px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#nav .text {
+  background-color: #253476;
+  width: 345px;
+  padding: 25px 20px;
+  position: absolute;
+  right: -76px;
+}
+
+#nav .text p {
+  font: normal 500 14px Roboto Slab;
+  line-height: 17px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-right: 15px;
+  width: 50%;
+}
+
+#nav .text2 {
+  background-color: #FFFFFF;
+  width: 100%;
+  padding: 25px 20px;
+  margin: 50px 0;
+}
+
+#main {
+  padding-top: 50px;
+}
+
+#main .main_mob {
+  margin: 0 15px;
+}
+
+#main .main_mob h3 {
+  font: normal 600 24px Roboto Slab;
+  line-height: 43px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #1F1F24;
+}
+
+#main .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+#main .main .img {
+  width: 50%;
+  height: 500px;
+  margin-left: -5%;
+  margin-top: 5%;
+}
+
+#main .main .img img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+  
+}
+
+#main .text {
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  padding: 30px;
+  width: 60%;
+  z-index: 2;
+}
+
+#main .inside {
+  background-color: #FFFFFF;
+  padding: 50px;
+  -webkit-box-shadow: 20px 18px 20px 20px rgba(0, 0, 0, 0.09);
+  box-shadow: 20px 18px 20px 20px rgba(0, 0, 0, 0.09);
+}
+
+#main .inside h3 {
+  font: normal 600 36px Roboto Slab;
+  line-height: 43px;
+  margin-bottom: 25px;
+  color: #1F1F24;
+}
+
+#main .inside p span {
+  font: normal 300 16px Roboto Slab !important;
+  color: #333333 !important;
+  line-height: 43px !important;
+  margin: 0 !important;
+}
+
+h5{
+  font-family: "Zilla Slab";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
